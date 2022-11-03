@@ -1,11 +1,27 @@
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600&display=swap');
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Comfortaa', cursive;
 }
+
 body {
     background-image: url(/assets/background.jpg);
     background-size: cover;
+}
+
+.login {
+    width: 320px;
+    height: 420px;
+    border: 2px solid black;
+    border-radius: 80px 0px 80px 0px;
+    color: aliceblue;
+    background-color: rgba(0, 0, 5, .8);
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    padding: 68px 28px;
 }
