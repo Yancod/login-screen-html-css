@@ -26,6 +26,44 @@ body {
     padding: 68px 28px;
 }
 
+.login p {
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+}
+
+.login input {
+    width: 100%;
+    margin-bottom: 21px;
+}
+.login input[type="text"], input[type="password"] {
+    border: none;
+    border-bottom: 1px solid aliceblue;
+    background-color: transparent;
+    outline: none;
+    height: 40px;
+    color: aliceblue;
+    font-size: 16px;
+}
+
+.login input[type="submit"] {
+    border: none;
+    outline: none;
+    height: 35px;
+    color: black;
+    background-color: aliceblue;
+    border-radius: 20px;
+
+}
+
+.login input[type="submit"]:hover{
+    color: aliceblue;
+    background-color: rgb(20, 20, 20);
+    cursor: pointer;
+    transition: .2s;
+
+}
+
 .usuarioIcon {
     height: 100px;
     width: 100px;
