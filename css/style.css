@@ -9,7 +9,11 @@
 
 body {
     background-image: url(/assets/background.jpg);
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 40vh;
     background-size: cover;
+    
 }
 
 .login {
@@ -36,7 +40,9 @@ body {
     width: 100%;
     margin-bottom: 21px;
 }
-.login input[type="text"], input[type="password"] {
+
+.login input[type="text"],
+input[type="password"] {
     border: none;
     border-bottom: 1px solid aliceblue;
     background-color: transparent;
@@ -56,12 +62,26 @@ body {
 
 }
 
-.login input[type="submit"]:hover{
+.login input[type="submit"]:hover {
     color: aliceblue;
     background-color: rgb(20, 20, 20);
     cursor: pointer;
     transition: .2s;
 
+}
+
+.login a {
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 20px;
+    color: rgb(71, 71, 71);
+    transition: 0.2s;
+}
+
+.login a:hover {
+    color: aliceblue;
+    transition: 0.2s;
 }
 
 .usuarioIcon {
